@@ -1,7 +1,4 @@
 Info.plist
 Pods/
 
-*.xcworkspacedata
-*.xcodeproj
-
 *.lock
