@@ -3,6 +3,4 @@ Info.plist
 *.xcworkspacedata
 *.xcodeproj
 
-xcuserdata/changnam.xcuserdatad/xcschemes
-
-
+*.lock
