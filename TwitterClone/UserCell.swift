@@ -63,6 +63,7 @@ class UserCell: DatasourceCell {
         button.setTitleColor(twitterBlue, for: .normal)
         
         button.setImage(#imageLiteral(resourceName: "Twitter-48"), for: .normal)
+        button.imageView?.frame = CGRect(x: 0, y: 0, width: 25, height: 25)
         button.imageView?.contentMode = .scaleAspectFit
         button.imageEdgeInsets = UIEdgeInsets(top: 0, left: -8, bottom: 0, right: 0)
         return button

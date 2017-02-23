@@ -10,6 +10,7 @@
 		7E0BB3331E5ACA4F00345ECD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BB3321E5ACA4F00345ECD /* AppDelegate.swift */; };
 		7E0BB33A1E5ACA4F00345ECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E0BB3391E5ACA4F00345ECD /* Assets.xcassets */; };
 		7E0BB33D1E5ACA4F00345ECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0BB33B1E5ACA4F00345ECD /* LaunchScreen.storyboard */; };
+		7E74A2E81E5EBCF700FD4BDB /* HomeDataSourceController+navbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E74A2E71E5EBCF700FD4BDB /* HomeDataSourceController+navbar.swift */; };
 		7EAD9B1B1E5D3BE5005B48A3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD9B1A1E5D3BE5005B48A3 /* User.swift */; };
 		7EAD9B1D1E5D3F53005B48A3 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD9B1C1E5D3F53005B48A3 /* UserCell.swift */; };
 		7EDBD25B1E5C4D6000B68BE5 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDBD25A1E5C4D6000B68BE5 /* HomeController.swift */; };
@@ -27,6 +28,7 @@
 		7E0BB3391E5ACA4F00345ECD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E0BB33C1E5ACA4F00345ECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E0BB33E1E5ACA4F00345ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E74A2E71E5EBCF700FD4BDB /* HomeDataSourceController+navbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeDataSourceController+navbar.swift"; sourceTree = "<group>"; };
 		7EAD9B1A1E5D3BE5005B48A3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7EAD9B1C1E5D3F53005B48A3 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		7EDBD25A1E5C4D6000B68BE5 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				7EDBD25C1E5C534400B68BE5 /* HomeDataSourceController.swift */,
+				7E74A2E71E5EBCF700FD4BDB /* HomeDataSourceController+navbar.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				7EAD9B1B1E5D3BE5005B48A3 /* User.swift in Sources */,
 				7EF2263A1E5C587000993C78 /* UserHeaderFooter.swift in Sources */,
 				7E0BB3331E5ACA4F00345ECD /* AppDelegate.swift in Sources */,
+				7E74A2E81E5EBCF700FD4BDB /* HomeDataSourceController+navbar.swift in Sources */,
 				7EDBD25B1E5C4D6000B68BE5 /* HomeController.swift in Sources */,
 				7EAD9B1D1E5D3F53005B48A3 /* UserCell.swift in Sources */,
 			);
